@@ -19,13 +19,12 @@ conn.commit()
 
 # Read data if exists
 df = pd.read_sql_query("SELECT * FROM tweets", conn)
-conn.close()
 
 # Handle empty data gracefully
 if df.empty:
     st.warning("⚠️ No tweet data found in database. Run the sentiment pipeline to populate it.")
     st.stop()
-df = pd.read_sql_query("SELECT * FROM tweets", conn)
+
 conn.close()
 
 # Add row_id for timeline (simulate time order)
