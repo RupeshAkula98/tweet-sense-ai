@@ -1,0 +1,8 @@
+streamlit
+tweepy
+transformers
+torch
+pandas
+matplotlib
+altair
+python-dotenv
