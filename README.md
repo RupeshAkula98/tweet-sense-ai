@@ -1,3 +1,5 @@
+[![Made with Streamlit](https://img.shields.io/badge/Made%20with-Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://streamlit.io)
+
 # 🧠 Tweet Sentiment Pipeline
 
 This project is a real-time sentiment analysis dashboard that:
