@@ -1,0 +1,4 @@
+.env
+tweets.db
+venv/
+__pycache__/
